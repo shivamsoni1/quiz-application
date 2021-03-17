@@ -1,0 +1,33 @@
+#top{
+ text-align: center;
+ padding: 30px;
+ margin: 20px;
+ color: Red;
+}
+#score{
+ text-align: center;
+ padding-bottom: 30px;
+ color: purple;
+}
+h4{
+ text-align: center;
+}
+#section{
+ margin-left:15%;
+ margin-top: 40px;
+ li{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px 0;
+  
+  width: 10%;
+  background-color: blue;
+  border-radius: 30px;
+  a{
+   color: black;
+   font-size: 17px;
+   font-weight: 500;
+  }
+ }
+}

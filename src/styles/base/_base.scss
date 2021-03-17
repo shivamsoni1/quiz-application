@@ -1,0 +1,10 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.disable{
+pointer-events: none;
+background-color: white !important;
+box-shadow: none !important;
+opacity: 0.9 !important;
+}

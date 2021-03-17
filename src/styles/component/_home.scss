@@ -1,0 +1,82 @@
+@import '../base/settings.scss';
+#home{
+ background-image: url('../../assets/image/background.jpg');
+ background-size: cover;
+ background-position: center;
+ height:100vh;
+ width:100vw;
+ display: flex;
+ justify-content: space-around;
+ section {
+  margin: auto;
+  padding:0 $md;
+  background-color: rgba(105, 62, 62, 0.6 );
+  height: 80%;
+  width: 35%;
+  border-radius: 20px;
+  h1{
+   text-align: center;
+   color: $off-white;
+   font-size: $lg;
+   padding: $sm;
+  }
+  .play-button-container{
+   ul{
+    list-style-type: none;
+   }
+   
+  }
+  a.play-button{
+   font-size: 1.5rem;
+   display: block;
+   border-radius: 30px;
+   text-align: center;
+   background-color: $green;
+   color: $off-white;
+   padding: 15px 10px;
+   text-decoration: none;
+   justify-content: space-around;
+   width: 84%;
+   margin: auto;
+   transition: 0.3s linear all;
+  }
+  a.play-button:hover{
+   background-color: darkgreen;
+   color: rgb(0, 0, 0);
+   
+  }
+  .auth-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin: auto; 
+   #login-button{
+    background-color: red;
+    transition: 0.3s linear all;
+   }
+   #login-button:hover{
+    background-color: darkred;
+    color : black;
+   }
+   #signUp-button{
+    background-color: rgb(76, 76, 119);
+   }
+   #signUp-button:hover{
+    background-color: darkblue;
+    color : black;
+   }
+   .auth-button{
+    width: 35%;
+   border-radius: 30px;
+   color: $off-white;
+   padding: 15px 10px;
+   text-decoration: none;
+   margin-top: 40px;
+   text-align:center; 
+   
+  }
+  
+  }
+  
+ }
+}
